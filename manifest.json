@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Statux Extension",
+  "applications": {
+    "gecko": {
+      "id": "statux@stat.ux"
+    }
+  },
+  "version": "1.0",
+  "description": "This is the Statux extension",
+  "permissions": ["tabs", "theme"],
+  "background": {
+    "scripts": ["statux.js"]
+  }
+}
